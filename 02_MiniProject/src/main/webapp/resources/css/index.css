@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "contentFont";
+	src : url("ARITA4.0_M.OTF");
+}
+@font-face{
+	font-family: "indexFont";
+	src : url("FORT FOUNDRY - RIFT-REGULAR.OTF");
+}
+#regBtn{
+	font-size: 10pt;
+	margin-left: 20px;
+	padding-left: 26px;
+}
+.regTd{
+	font-family: indexFont;
+	font-size: 16pt;
+	position: right;
+	height:10px; 
+	weight: 10px;
+  	border-collapse : collapse;
+	padding: 10px;	
+	margin:  auto;
+	background-color:#161a1e; 
+	/*
+	여기 테이블 선 밑에거만 나오게 
+	*/	
+	padding-top: 16px; 
+	margin-top: 28px;
+}
+#contentFont{
+	font-family: contentFont;
+	background-color:#161a1e;
+}
+#indexFont{
+	font-family: indexFont;
+	background-color:#161a1e;
+}
+#menuTbl{
+	font-family: indexFont;
+	width : 100%;
+	font-size: 40pt;
+	height: 60px;
+	color:white;
+	font-weight: 800;
+	position : fixed;
+	/*
+	border : 1px solid white;
+	*/	
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+  	border-collapse : collapse;
+	padding: 10px;	
+	margin:  auto;
+	background-color:#161a1e;
+}
+#loginTbl{
+	background-color:#d9a20f;
+	height:12px; 
+	weight: 20px;
+}
+.menuTd{
+	border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+a:link {
+  color : pink;
+  text-decoration: none;
+}
+a:visited {
+  color : white;
+  text-decoration: none;
+}
+a:hover {
+  color : #d9a20f;
+  text-decoration: none;
+}
+a:active {
+  color : #d9a20f;
+  text-decoration: none;
+}
+body{
+	background-color:#171717;
+	color:white;
+	font-size: 20pt;
+}

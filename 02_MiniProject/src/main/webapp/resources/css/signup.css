@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "contentFont";
+	src : url("ARITA4.0_M.OTF");
+}
+@font-face{
+	font-family: "indexFont";
+	src : url("FORT FOUNDRY - RIFT-REGULAR.OTF");
+}
+
+.i1{
+	text-align: center;
+	font-family: "contentFont";
+	font-weight: 900;
+	margin: auto;
+	padding: auto;
+	
+}
+#signupTbl .i1 {
+	font-family: "contentFont";
+	font-weight: 900;
+	font-size: 12pt;
+	text-align: center;
+	border: #EAEFF9 solid 3px;
+	background-color: white;
+	border-radius: 10px;
+	height: 30px;
+	width: 200px;
+	color:black;
+}
+
+#signupTbl{
+	font-family: contentFont;
+	margin: auto;
+	padding: auto;
+	margin-top: 80px;
+	color:black;
+}
+
+body {
+	background-color: #171717;
+	color:black;
+}

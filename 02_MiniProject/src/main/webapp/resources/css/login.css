@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "contentFont";
+	src : url("ARITA4.0_M.OTF");
+}
+@font-face{
+	font-family: "indexFont";
+	src : url("FORT FOUNDRY - RIFT-REGULAR.OTF");
+}
+
+body {
+	font-family: contentFont;
+	background-color: #171717;
+	color:white;
+	font-size: 20pt;
+}
+
+#loginTbl{
+	font-family: indexFont;
+	margin-left: auto;
+	margin-right : auto;
+	margin-top: 120px;
+	width: 50%;
+	height: 50%;
+	text-align:center;
+}
+input{
+	height: 38px;
+	width : 80%;
+}
+button{
+	height: 38px;
+	width : 30%;
+}
+#loginTitle{
+	font-size : 30pt;
+}
+#loginTitleImg{
+	height: 158px;
+	width: 158px;
+}
