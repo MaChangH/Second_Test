@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h6>first commit 2 </h6>
-	
+	<h2>hey its 2nd try</h2>
 	<img src="resources/img/jerry-thanks.gif" width="350px" height="350px">
 </body>
 </html>
