@@ -7,7 +7,7 @@
 <title>machang</title>
 </head>
 <body>
-	<h6>first commit</h6>
+	<h6>first commit 2 </h6>
 	
 	<img src="resources/img/jerry-thanks.gif" width="350px" height="350px">
 </body>
